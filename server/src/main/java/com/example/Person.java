@@ -12,11 +12,8 @@ public class Person {
 
   }
   
-  /**
-  * @param someone是人名
-  * @return 字符串
-  */
-  public String final person(final String someone) {
+  //TODO: Add javadoc comment
+  public String person(String someone) {
     return String.format("Hello, %s!", someone);
   }
 }
